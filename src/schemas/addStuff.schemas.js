@@ -8,6 +8,7 @@ export const citiesSchema = joi.object({
 
 export const teamsSchema = joi.object({
     name: joi.string().required(),
-    photo: joi.string().uri().required()
+    photo: joi.string().uri().required(),
+    logo: joi.string().uri().required()
 });
 
