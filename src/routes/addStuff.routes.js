@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { validateSchema } from "../middlewares/validateSchema.middleware.js";
 import { addCity, addTeam, getCities, getTeams } from "../controllers/addStuff.controllers.js";
-import { citiesSchema, teamsSchema } from "../schemas/addstuff.schemas.js";
+import { citiesSchema, teamsSchema } from "../schemas/addStuff.schemas.js";
 
 const addStuffRouter = Router();
 
